@@ -28,7 +28,7 @@ O sistema recebe dados de e-mail via POST, adapta para o modelo AWS ou OCI confo
 ### ▶️ Passo a passo
 ```bash
 # Clonar o repositório
-git clone <url-do-repositorio>
+git clone https://github.com/Luke-2001/desafio-email-viasoft/tree/master
 
 # Entrar no diretório do projeto
 cd viasoft-email
