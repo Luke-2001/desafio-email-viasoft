@@ -70,3 +70,14 @@ No corpo da requisição, selecione a opção **raw** e o tipo **JSON**. Utilize
   "assunto": "Bem-vindo!",
   "conteudo": "Seu cadastro foi realizado com sucesso."
 }
+
+curl --location 'http://localhost:8080/email?mail.integracao=AWS' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "emailDestinatario": "cliente@teste.com",
+  "nomeDestinatario": "João da Silva",
+  "emailRemetente": "empresa@teste.com",
+  "assunto": "Bem-vindo!",
+  "conteudo": "Seu cadastro foi realizado com sucesso."
+}
+'
